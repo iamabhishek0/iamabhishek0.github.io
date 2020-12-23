@@ -4,26 +4,26 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "MLH Open Source Fellow",
+    cardImage: "assets/images/experience-page/mlh_fellowship.png",
+    place: "Major League Hacking",
+    time: "(Oct, 2020 - Dec 2020)",
+    desp: "<li>The MLH Open Source Fellowship is a 12-week internship alternative for students interested in becoming software engineers. This Program is made possible Github and Facebook</li> " +
+        "<li>During this program I made a significant contribution to <a href='https://github.com/kiwitcms/Kiwi'>KiwiTCMS</a>.</li>" +
+        "<li>Worked on increasing the code coverage by writing Automated tests for Django Web App, and have <a href='https://github.com/kiwitcms/Kiwi/pulls?q=is%3Apr+author%3Aiamabhishek0'>8 merged Pull Requests</a> so far.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Full Stack Web Developer",
+    cardImage: "assets/images/experience-page/divine_care.jpg",
+    place: "Divine Care",
+    time: "(May - July, 2019)",
+    desp: "<li>Developed an E-Commerce and video streaming Website</li>" +
+        "<li>Technologies used Django, Firebase, HTML, CSS, JavaScript, Bootstrap.</li>" +
+        "<li>Managed the deployment of the Web App on Google App Engine</li>"+
+        "<li><a href='https://www.divinecareofficial.com'>https://www.divinecareofficial.com</a></li>"
+    ,
   },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
-  },
+
 ];
 
 const showCards2 = () => {
@@ -56,82 +56,22 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
-
-// Volunteership Cards
-
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
-  },
-];
-
-const showCards = () => {
-  let output = "";
-  volunteershipcards.forEach(
-    ({ title, cardImage, description }) =>
-      (output += `        
-      <div class="card volunteerCard" style="background-image: url(${cardImage});background-repeat: no-repeat, repeat; background-size: cover; background-position: center;">
-      <div class="content">
-          <h2 class="volunteerTitle">${title}</h2>
-          <p class="copy">${description}</p></div>
-      </div>
-      `)
-  );
-  volunteership.innerHTML = output;
-};
-document.addEventListener("DOMContentLoaded", showCards);
-
-
-// Mentorship Card
-
-
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
   {
-    title: "HakinCode",
-    image: "assets/images/experience-page/hakin.png",
-    time: "06/2020 - 08/2020",
-    desp: "<li>It is an open source community where students and mentors can apply.</li><hr /><li>Ample amount of technologies and projects are there and we are given opportunity to work on them according to our interest and knowledge.</li>",
+    title: "President of Rotaract Club IIIT Gwalior",
+    image: "assets/images/experience-page/rotaract.png",
+    time: "07/2020 - Present",
+    desp: "<li>It is non-profit organisation which is a part of Rotary International</li>" +
+        "<li>Rotaract Club make its best effort to help the needy as best we can.</li>"+
+        "<li><a href='https://www.instagram.com/rotaractiiitm/?hl=en'>Some Glimpses of our Events</a></li>",
   },
   {
-    title: "Google Summer of Code",
-    image: "assets/images/experience-page/gsoc.png",
-    time: "03/2020 - 08/2020",
-    desp: "<li>Google Summer of Code is a global program focused on introducing students to open source software development.</li><hr /><li>It is a great platform to explore new areas, maybe discover a new career path!</li>",
+    title: "Volunteer at TEDxABVIIITMG",
+    image: "assets/images/experience-page/tedx.png",
+    time: "Aug 2018",
+    desp: "<li>A TEDx event is a local gathering where live TED-like talks and performances are shared with the community. </li><hr />" +
+        "<li>I was a part of the Team that hosted 7 Speakers.</li>",
   },
 ];
 
