@@ -93,7 +93,7 @@ const mentor = [
         "<li>In the Sudoku Solver, user can fill their own unsolved puzzle and get the solved puzzle.</li>" +
         "<li>In between game, user can check if it is a valid move or not. In case, user gets stuck and is unable to solve. User can see the answer by clicking on solve.</li>"+
 
-        "<li>Demo: <a href='https://github.com/iamabhishek0/sudoku-solver'>https://custom-sudoku-solver.herokuapp.com/</a></li>"+
+        "<li>Demo: <a href='https://custom-sudoku-solver.herokuapp.com/'>https://custom-sudoku-solver.herokuapp.com/</a></li>"+
                     "<li>Github: <a href='https://github.com/iamabhishek0/sudoku-solver'>https://github.com/iamabhishek0/sudoku-solver</a></li>"
 
     ,
